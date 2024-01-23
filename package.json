@@ -1,0 +1,24 @@
+{
+  "name": "highest-paid-athletes-2023",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npx gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "d3": "latest",
+    "gh-pages": "^6.1.1",
+    "svelte": "^4.2.8",
+    "tippy": "latest",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "svelte-tippy": "^1.3.2",
+    "tippy.js": "^6.3.7"
+  }
+}

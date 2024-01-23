@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wdth,wght@0,87.5,300..800;1,87.5,300..800&display=swap');
+
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  --background-gray: hsl(204, 8%, 90%);
+  --label-light-grey: hsl(204, 12%, 48%);
+  --label-dark-grey: hsl(204, 12%, 28%);
+  --category-1: hsl(184, 70%, 40%);
+  --category-2: hsl(351, 80%, 70%);
+  --highlight-1: goldenrod;
+  --highlight-2: rgb(180, 149, 222);
+  --highlight-3: rgb(255, 255, 255);
+
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--background-gray);
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: #ffffff;
+  }
+}
